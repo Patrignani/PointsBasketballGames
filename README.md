@@ -1,29 +1,22 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Aplicação para registro de pontos de jogo de basquete
 
-### What is this repository for? ###
+### Configuração  (appsettings.json) ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Configuration > AutoMigration - valor booleano, caso seja verdadeiro sempre que a aplicação se iniciar o EF core criará/ atualizará o banco. 
 
-### How do I get set up? ###
+### API de requisição  ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* O caminho base da APIs que serão consumidas pelo front-end se encontra no caminho:
+  PointsBasketballGames.Web.App > app > utils > constants.js
 
-### Contribution guidelines ###
+### Iniciando a aplicação ###
 
-* Writing tests
-* Code review
-* Other guidelines
+* Execute simultaneamente os projetos:
+ PointsBasketballGames.Web.App
+ PointsBasketballGames.App
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+### IDE ###
+* A aplicação está em .net core 3.1.
+* Necessário ter visual studio 2019 ou visual code com o sdk 3.1.
