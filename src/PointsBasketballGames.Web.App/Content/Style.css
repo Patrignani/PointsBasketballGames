@@ -1,0 +1,97 @@
+﻿.center {
+   margin:auto 35%;
+    width:75%
+}
+
+.resultPoints {
+    text-align: right;
+    color: #ad75ad;
+}
+#contactform {
+    margin: auto 25%;
+    width: 50%;
+    padding: 20px;
+    background: #f0f0f0;
+    overflow: auto;
+    border: 1px solid #cccccc;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    -moz-box-shadow: 2px 2px 2px #cccccc;
+    -webkit-box-shadow: 2px 2px 2px #cccccc;
+    box-shadow: 2px 2px 2px #cccccc;
+}
+
+
+body {
+    font: 15px/1.3 'Open Sans', sans-serif;
+    color: #5e5b64;
+
+}
+
+a, a:visited {
+    outline: none;
+    color: #389dc1;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+section, footer, header, aside, nav {
+    display: block;
+}
+
+
+
+nav {
+    display: inline-block;
+    margin: 2% auto;
+    background-color: #e3f2fd;
+    box-shadow: 0 1px 1px #ccc;
+    border-radius: 2px;
+}
+
+    nav a {
+        display: inline-block;
+        padding: 18px 30px;
+        color: #fff !important;
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none !important;
+        line-height: 1;
+        text-transform: uppercase;
+        background-color: transparent;
+        -webkit-transition: background-color 0.25s;
+        -moz-transition: background-color 0.25s;
+        transition: background-color 0.25s;
+    }
+
+        nav a:first-child {
+            border-radius: 2px 0 0 2px;
+        }
+
+        nav a:last-child {
+            border-radius: 0 2px 2px 0;
+        }
+
+    nav.throwPoints .throwPoints,
+    nav.resultPoints .resultPoints {
+        background-color: dodgerblue;
+    }
+
+p {
+    font-s color:#7d9098;
+}
+
+    p b {
+        color: #ffffff;
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: #DC64C6;
+        border-radius: 2px;
+        ize: 22px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 18px;
+    }

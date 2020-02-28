@@ -1,0 +1,32 @@
+﻿<div class="container">
+    <div class="center" ng-controller="throwPointsController">
+        <h2 style="margin:40px">Lançar pontos</h2>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <label for="dateGame">Data do jogo</label>
+                    <input type="date" class="form-control" id="dttDateGame" name="dateGame" ng-model="GameDate">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <label for="Points">Quantos pontos você fez:</label>
+                    <input type="number" class="form-control" id="txtPoints" placeholder="Pontos" name="Points" ng-model="ScoreValue">
+
+                </div>
+
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <button type="button" ng-click="save()" class="btn btn-dark" style="float: right; width:100px">Salvar</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+

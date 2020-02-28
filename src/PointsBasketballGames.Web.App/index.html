@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Angular Routing
+    </title>
+
+    <script src="../../Scripts/angular.min.js"></script>
+    <script src="../../Scripts/angular-route.min.js"></script>
+    <script src="../../Scripts/angular-toastr.min.js"></script>
+    <script src="../../Scripts/angular-toastr.tpls.min.js"></script>
+
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../Content/Style.css" rel="stylesheet" />
+    <link href="../../Content/angular-toastr.min.css" rel="stylesheet" />
+
+    <script src="app/app.js"></script>
+    <script src="app/controllers/throwPointsController.js"></script>
+    <script src="app/services/scoreServices.js"></script>
+    <script src="app/utils/constants.js"></script>
+    <script src="app/controllers/navBarController.js"></script>
+    <script src="app/controllers/resultPointsController.js"></script>
+
+
+</head>
+
+<body ng-app="app">
+
+    <div style="text-align: center;">
+        <nav class="{{obj.active}}" >
+
+            <a class="throwPoints" ng-click="obj.active='throwPoints'" href="#!throwPoints">Lançar pontos </a>
+
+
+            <a class="resultPoints" ng-click="obj.active='resultPoints'" href="#!resultPoints">Ver resultados</a>
+
+
+
+        </nav>
+    </div>
+    <div id="wer" ng-view></div>
+</body>
+</html>

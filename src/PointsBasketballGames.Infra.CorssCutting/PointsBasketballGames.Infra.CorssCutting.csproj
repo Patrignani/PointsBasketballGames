@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PointsBasketballGames.Domain\PointsBasketballGames.Domain.csproj" />
+    <ProjectReference Include="..\PointsBasketballGames.Infra.Data\PointsBasketballGames.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
