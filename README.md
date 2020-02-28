@@ -20,4 +20,4 @@ Aplicação para registro de pontos de jogo de basquete
 
 ### IDE ###
 * A aplicação está em .net core 3.1.
-* Necessário ter visual studio 2019 ou visual code com o sdk 3.1.
+* Necessário ter visual studio 2019 ou visual code com o sdk 3.1 ou superior do .net core.
