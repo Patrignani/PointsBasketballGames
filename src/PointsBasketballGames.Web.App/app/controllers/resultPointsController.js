@@ -1,6 +1,5 @@
 ﻿app.controller('resultPointsController', ['$scope', 'scoreServices', 'toastr', function ($scope, scoreServices, toastr) {
     var formatDate = function (date) {
-        console.log("Aqui =>>")
         var day = date.getDate().toString();
         var month = (date.getMonth() + 1).toString();
 
