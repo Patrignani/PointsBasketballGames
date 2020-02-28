@@ -1,8 +1,5 @@
 ﻿app.controller('throwPointsController', ['$scope', 'scoreServices', 'toastr', function ($scope, scoreServices, toastr) {
 
-    scoreServices.setModel('navBar','throwPoints');
-
-
     var valid = function (scoreObject) {
         var message = "";
 
